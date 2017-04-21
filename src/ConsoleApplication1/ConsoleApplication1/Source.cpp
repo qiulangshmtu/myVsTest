@@ -5,7 +5,8 @@
 #include <stdio.h>
 #include "stdlib.h"
 #include <tchar.h>
-#include <gtest/gtest.h>
+//#include <gtest/gtest.h>
+#include "D:\gtest\googletest-master\googletest\include\gtest\gtest.h"
 #include <iostream>
 
 int Foo(int a, int b)
