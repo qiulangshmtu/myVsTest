@@ -1,0 +1,14 @@
+﻿Build started 2017/4/20 12:02:51.
+     1>Project "E:\GIT_SERVER\test\myVsTest\src\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"D:\gtest\googletest-master\googletest\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GIT_SERVER\test\myVsTest\src\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\gtest\googletest-master\googletest\lib\Debug" gtest.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\GIT_SERVER\test\myVsTest\src\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GIT_SERVER\test\myVsTest\src\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\Source.obj
+     1>gtest.lib(gtest-all.obj) : warning LNK4099: PDB 'gtest.pdb' was not found with 'gtest.lib(gtest-all.obj)' or at 'E:\GIT_SERVER\test\myVsTest\src\ConsoleApplication1\Debug\gtest.pdb'; linking object as if no debug info
+         ConsoleApplication1.vcxproj -> E:\GIT_SERVER\test\myVsTest\src\ConsoleApplication1\Debug\ConsoleApplication1.exe
+     1>Done Building Project "E:\GIT_SERVER\test\myVsTest\src\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.13
